@@ -1,28 +1,34 @@
-import java.util.ArrayList;
-import java.util.Random;
+import java.util.*;
 
 
 public class Main {
 
 
     public static void main(String[] args) {
-
+        Map<DayOfWeek, String> fatherSchedule = new HashMap<>();
+        fatherSchedule.put(DayOfWeek.MONDAY, "do exercise");
+        Map<DayOfWeek, String> motherSchedule = new HashMap<>();
+        motherSchedule.put(DayOfWeek.TUESDAY, "cook meal");
+        Map<DayOfWeek, String> childSchedule = new HashMap<>();
+        childSchedule.put(DayOfWeek.SUNDAY, "sleep");
 
         Human father = new Man("Vito", "Karleone", 1955,
                 95,
-                new String[][]{{DayOfWeek.MONDAY.name() + "do exercise"}}
-        );
+                fatherSchedule);
 
         Human mother = new Woman("Jane", "Karleone", 1956,
                 85,
-                new String[][]{{DayOfWeek.TUESDAY.name() + "do exercise"}, {DayOfWeek.WEDNESDAY.name(), "relax"}}
-        );
+                motherSchedule);
 
         Human child = new Human("Michael", "Karleone", 1977,
                 90,
-                new String[][]{{"monday, do exercise"}, {"tuesday", "relax"}}
-        );
-        // child.setPet(p);
+                childSchedule);
+//        Pet dog = new Pet(Species.DOG, "Rocky", 5, 45, habits) {
+//
+//        };
+//        Set<Pet> petSet = new HashSet<>();
+//        petSet.add();
+        //child.setPet(dog);
 
         //Human man = new Human();
 

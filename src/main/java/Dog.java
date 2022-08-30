@@ -1,4 +1,16 @@
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
 public class Dog extends Pet implements AnimalFoul {
+
+
+
+    public Dog() {
+        super("Max",
+                2,
+                45);
+    }
 
     public void foul() {
         System.out.println("I need to cover it up");

@@ -1,12 +1,16 @@
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
 
 public class Family {
     private Human mother;
     private Human father;
     private Human child;
-    private ArrayList<Human> children;
+    private List<Human> children;
     private Pet pet;
+
+    private Set<Pet> petSet;
 
 
 
@@ -34,11 +38,11 @@ public class Family {
         this.child = child;
     }
 
-    public ArrayList<Human> getChildren() {
+    public List<Human> getChildren() {
         return children;
     }
 
-    public void setChildren(ArrayList<Human> children) {
+    public void setChildren(List<Human> children) {
         this.children = children;
     }
 
@@ -50,14 +54,14 @@ public class Family {
         this.pet = pet;
     }
 
-    public Family(Human mother, Human father, ArrayList<Human> children, Pet pet) {
+    public Family(Human mother, Human father, List<Human> children, Set<Pet> petSet) {
         this.mother = mother;
         this.father = father;
         this.children = children;
-        this.pet = pet;
+        this.petSet = petSet;
     }
 
-    public Family(Human mother, Human father, ArrayList<Human> children) {
+    public Family(Human mother, Human father, List<Human> children) {
         this.mother = mother;
         this.father = father;
         this.children = children;
@@ -90,7 +94,7 @@ public class Family {
                 "mother=" + mother +
                 ", father=" + father +
                 ", children=" + children +
-                ", pet=" + pet +
+                ", pet=" + petSet +
                 '}';
     }
     @Override

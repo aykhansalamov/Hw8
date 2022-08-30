@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e9b594-dcd5-467c-bbd2-69dc9f64fd1a" name="Changes" comment="" />
+    <list default="true" id="77e9b594-dcd5-467c-bbd2-69dc9f64fd1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DomesticCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DomesticCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RoboCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoboCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woman.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,19 +27,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Dqlu4HsrY4TKVLw18de9qs7fFk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aydan/IdeaProjects/Homework2/Hw8/src/main/java&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1f4a8112032604d451f8f81865fb1948&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aydan\IdeaProjects\Homework2\Hw8\src\main\java" />
+      <recent name="C:\Users\Aydan\IdeaProjects\Homework2\Hw8\src\main\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Hw8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hw8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.testCounFamily" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hw8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="testCounFamily" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestClass" />
+        <item itemvalue="JUnit.TestClass.testCounFamily" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,8 +94,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661434716907</updated>
-      <workItem from="1661434719090" duration="1000" />
+      <workItem from="1661434719090" duration="673000" />
+      <workItem from="1661490297891" duration="20193000" />
+      <workItem from="1661748313095" duration="11819000" />
+      <workItem from="1661771500528" duration="822000" />
+      <workItem from="1661774704991" duration="356000" />
+      <workItem from="1661848862176" duration="1857000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

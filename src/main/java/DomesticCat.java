@@ -1,4 +1,13 @@
+import java.util.Collections;
+import java.util.HashSet;
+
 public class DomesticCat extends Pet implements AnimalFoul {
+
+    public DomesticCat() {
+        super("Mia",
+                1,
+                55);
+    }
 
     public void foul() {
         System.out.println("I need to cover it up");

@@ -1,19 +1,20 @@
 
 
-import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public abstract class Pet {
     private Species species;
     private String nickName;
     private int age;
     private static int trickLevel;
-    private String[] habits;
+
+    private Set<String> habits;
+
 
     public Species getSpecies() {
         return species;
     }
-
-
 
     public void setSpecies(Species species) {
         this.species = species;
@@ -43,11 +44,11 @@ public abstract class Pet {
         this.trickLevel = trickLevel;
     }
 
-    public String[] getHabits() {
+    public Set<String> getHabits() {
         return habits;
     }
 
-    public void setHabits(String[] habits) {
+    public void setHabits(String running) {
         this.habits = habits;
     }
 
@@ -57,9 +58,10 @@ public abstract class Pet {
                 "nickName='" + nickName + '\'' +
                 ", age=" + age +
                 ", trickLevel=" + trickLevel +
-                ", habits=" + Arrays.deepToString(habits) +
+                ", habits=" + habits +
                 '}';
     }
+
     @Override
     protected void finalize() throws Throwable {
         System.out.println(this + " objects collected by garbage collector in Pet class");
@@ -67,15 +69,8 @@ public abstract class Pet {
 
 
 
-    public Pet() {
 
-    }
-
-
-
-
-
-    public Pet(String nickName, int age, int trickLevel, String[] habits) {
+    public Pet(String nickName, int age, int trickLevel) {
 
         this.nickName = nickName;
         this.age = age;
@@ -88,9 +83,7 @@ public abstract class Pet {
     }
 
 
-
     public abstract void respond();
-
 
 
     public void setHabits(String eat, String drink, String sleep) {
